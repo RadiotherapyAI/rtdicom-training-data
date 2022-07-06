@@ -6,6 +6,7 @@ authors = ["Simon Biggs <simon.biggs@radiotherapy.ai>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+typer = "*"
 
 [tool.poetry.dev-dependencies]
 
