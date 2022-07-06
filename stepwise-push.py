@@ -27,10 +27,16 @@ def main(module: str):
     counts_to_upload_per_step = 500
 
     while True:
-        block_of_paths = list(next(paths) for _ in range(counts_to_upload_per_step))
-        relative_block = [str(path.relative_to(module_path)) for path in block_of_paths]
+        block_of_paths = []
+        for _ in range(counts_to_upload_per_step):
+            try:
+                path = next(paths)
+            except StopIteration:
+                break
+
+            block_of_paths.append(str(path.relative_to(module_path)))
         
-        subprocess.check_output(['git', 'add'] + relative_block, cwd=module_path)
+        subprocess.check_output(['git', 'add'] + block_of_paths, cwd=module_path)
 
         try:
             subprocess.check_output(['git', 'commit', '-m', 'automated bulk data commit'], cwd=module_path)
