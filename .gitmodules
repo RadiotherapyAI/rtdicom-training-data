@@ -1,6 +1,16 @@
-[submodule "HNSCC"]
-	path = HNSCC
-	url = git@github.com:RadiotherapyAI/data-tcia-hnscc.git
+[submodule "HNSCC-part-1"]
+	path = HNSCC-part-1
+	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-1.git
 [submodule "LCTSC"]
 	path = LCTSC
 	url = git@github.com:RadiotherapyAI/data-tcia-lctsc.git
+	
+[submodule "HNSCC-part-2"]
+	path = HNSCC-part-2
+	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-2.git
+[submodule "HNSCC-part-3"]
+	path = HNSCC-part-3
+	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-3.git
+[submodule "HNSCC-part-4"]
+	path = HNSCC-part-4
+	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-4.git
