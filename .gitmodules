@@ -14,3 +14,15 @@
 [submodule "HNSCC-part-4"]
 	path = HNSCC-part-4
 	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-4.git
+[submodule "4D-Lung-part-1"]
+	path = 4D-Lung-part-1
+	url = git@github.com:RadiotherapyAI/data-tcia-4d-lung-part-1.git
+[submodule "4D-Lung-part-2"]
+	path = 4D-Lung-part-2
+	url = git@github.com:RadiotherapyAI/data-tcia-4d-lung-part-2.git
+[submodule "4D-Lung-part-3"]
+	path = 4D-Lung-part-3
+	url = git@github.com:RadiotherapyAI/data-tcia-4d-lung-part-3.git
+[submodule "4D-Lung-part-4"]
+	path = 4D-Lung-part-4
+	url = git@github.com:RadiotherapyAI/data-tcia-4d-lung-part-4.git
