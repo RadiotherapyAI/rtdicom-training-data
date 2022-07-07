@@ -1,10 +1,9 @@
-[submodule "HNSCC-part-1"]
-	path = HNSCC-part-1
-	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-1.git
 [submodule "LCTSC"]
 	path = LCTSC
 	url = git@github.com:RadiotherapyAI/data-tcia-lctsc.git
-	
+[submodule "HNSCC-part-1"]
+	path = HNSCC-part-1
+	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-1.git	
 [submodule "HNSCC-part-2"]
 	path = HNSCC-part-2
 	url = git@github.com:RadiotherapyAI/data-tcia-hnscc-part-2.git
@@ -26,3 +25,16 @@
 [submodule "4D-Lung-part-4"]
 	path = 4D-Lung-part-4
 	url = git@github.com:RadiotherapyAI/data-tcia-4d-lung-part-4.git
+
+[submodule "Pediatric-CT-SEG-part-1"]
+	path = Pediatric-CT-SEG-part-1
+	url = git@github.com:RadiotherapyAI/data-tcia-pediatric-ct-seg-part-1.git
+[submodule "Pediatric-CT-SEG-part-2"]
+	path = Pediatric-CT-SEG-part-2
+	url = git@github.com:RadiotherapyAI/data-tcia-pediatric-ct-seg-part-2.git
+[submodule "Soft-tissue-Sarcoma"]
+	path = Soft-tissue-Sarcoma
+	url = git@github.com:RadiotherapyAI/data-tcia-soft-tissue-sarcoma.git
+[submodule "DeepMind"]
+	path = DeepMind
+	url = git@github.com:RadiotherapyAI/data-tcia-deepmind.git
